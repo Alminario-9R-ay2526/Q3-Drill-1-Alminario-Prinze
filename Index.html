@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Drill1: Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-container">
+        <h1>Basic Calculator</h1>
+        <p>Click the button to get the product of 8 and 5</p>
+        <p id="var1">The answer is:</p>
+      
+      <button type="button" class="btn btn-success" onclick="window.location.reload()">Refresh</button>
+      <button type="button" class="btn btn-warning" onclick="
+            let var1 = 8; 
+            let var2 = 5; 
+            let prod= var1 * var2;
+
+                document.getElementById('var1').innerHTML='The answer is:' + prod;">Calculate</button>
+    </div>
+
+</body>
+</html>
